@@ -58,5 +58,5 @@ console.log(getEmployeeInfo(employee, "lastName")); // Should return: "Doe"
 console.log(getEmployeeInfo(employee, "position")); // Should return: "Software Engineer"
 console.log(getEmployeeInfo(employee, "street")); // Should return: "123 Main St"
 console.log(getEmployeeInfo(employee, "endDate")); // Should return: null
-console.log(getEmployeeInfo(employee, "personalInfo")); // Should return whole object personal info
-console.log(getEmployeeInfo(employee, "login")); // Should return: "Klucz nie istnieje"
+console.log(getEmployeeInfo(employee, "personalInfo")); // Should return whole "personalInfo" object
+console.log(getEmployeeInfo(employee, "login")); // Should return: "Key does not exists"
