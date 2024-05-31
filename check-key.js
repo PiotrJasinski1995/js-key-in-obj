@@ -8,8 +8,9 @@ const getEmployeeInfo = (obj, key) => {
     // if there is a key on first level => return it
     return obj[key];
   } else if (Array.isArray(obj)) {
+    // treat array of length = 2 as key-value pair
     if (obj.length === 2) {
-      // if there is a key on first level => return it
+      // if there is a key in first element => return second element
       if (obj[0] === key) {
         return obj[1];
       }
